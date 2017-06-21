@@ -47,6 +47,7 @@ P.P.S.: Asume that your API will be used by a frontend developer to build fronte
 - 12: [Use for money in java app](http://stackoverflow.com/a/43051227/548473)
 - 13: **Историю еды и голосований лучше сделать. Нужно различать базовые вещи, которые закладываются в архитектуру приложения и неочевидные доработки к ТЗ, которых лучше не делать.**
 - 14: Еще раз про [hashCode/equals в Entity](https://stackoverflow.com/questions/5031614/the-jpa-hashcode-equals-dilemma): не делайте сравнение по всем полям!
+- 15: Название пакетов, имен классов для `model/to/web` достаточно стандартные (нарпимер `model/domain`). НЕ надо придумывать своих собственных правил.
 
 > Совершенство достигнуто не тогда, когда нечего добавить, а тогда, когда нечего отнять
 
