@@ -49,6 +49,7 @@ P.P.S.: Asume that your API will be used by a frontend developer to build fronte
 - 14: Еще раз про [hashCode/equals в Entity](https://stackoverflow.com/questions/5031614/the-jpa-hashcode-equals-dilemma): не делайте сравнение по всем полям!
 - 15: Название пакетов, имен классов для `model/to/web` достаточно стандартные (нарпимер `model/domain`). НЕ надо придумывать своих собственных правил.
 - 16: Предпочтительно использовать DATA-JPA (можно без лишней делегации, напрямую из сервиса/контроллера дергать Repository)
+- 17: Вместо `ModelMatcher` (который нуждается в javadoc) можно использовать `json-path` и  `xxx.json("{...}"), патч `11_04_HW10_duplicate_datetime`
 
 > Совершенство достигнуто не тогда, когда нечего добавить, а тогда, когда нечего отнять
 
