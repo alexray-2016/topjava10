@@ -127,6 +127,7 @@ Datasources advanced
 - **Задеплоить свое приложение в Heroku** 
 - Сделать / обновить резюме (отдать на ревью в канал #hw11 группы slack)
   - [Загрузка сайта на GitHub. Бесплатный хостинг и домен.](https://vk.com/video-58538268_456239051?list=661b165047264e7952)
+  - [CSS theme for hosting your personal site, blog, or portfolio](https://mademistakes.com/work/minimal-mistakes-jekyll-theme/)
 - Дать ссылку на него в своем профиле на JavaOPs (ссылка в каждом письме) и заполнить информацию по поиску работы (если конечно актуально): резюме, флаг рассматриваю работу и готов к релокации и информация для HR.
 - **Обновления базы соискателей буду рассылать по HR 14.06, постарайтесь успеть** 
 - Сделать и внести в свое портфолио <a href="https://github.com/JavaWebinar/topjava10/blob/doc/doc/graduation.md#graduation-project">Graduation project</a>
