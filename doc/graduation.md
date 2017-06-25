@@ -51,7 +51,7 @@ P.P.S.: Asume that your API will be used by a frontend developer to build fronte
 - 16: Предпочтительно использовать DATA-JPA (можно без лишней делегации, напрямую из сервиса/контроллера дергать Repository)
 - 17: Вместо `ModelMatcher` (который нуждается в javadoc) в тестах контроллеров можно использовать `json-path` и  `xxx.json("{...}")`, патч `11_04_HW10_duplicate_datetime`
 - 18: На topjava мы смотрели разные варианты использования, тут делаем максимально просто. С TO многие вещи упрощаются.
-- 19: Проверьте, не торчат ли из кода учебные уши topjava, типа `ProfileRestController.testUTF()`, `AbstractServiceTest.printResult()` или закомментированные JdbcTemplate. Назначение этого проекта совсем другое.
+- 19: Проверьте, не торчат ли из кода учебные уши topjava, типа `ProfileRestController.testUTF()`, `AbstractServiceTest.printResult()` или закомментированные `JdbcTemplate`. Назначение этого проекта совсем другое.
 
 > Совершенство достигнуто не тогда, когда нечего добавить, а тогда, когда нечего отнять
 
