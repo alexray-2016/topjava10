@@ -52,7 +52,7 @@ P.P.S.: Asume that your API will be used by a frontend developer to build fronte
 - 17: Вместо `ModelMatcher` (который нуждается в javadoc) в тестах контроллеров можно использовать `json-path` и  `xxx.json("{...}")`, патч `11_04_HW10_duplicate_datetime`
 - 18: На topjava мы смотрели разные варианты использования, тут делаем максимально просто. С TO многие вещи упрощаются.
 - 19: Проверьте, не торчат ли из кода учебные уши topjava, типа `ProfileRestController.testUTF()`, `AbstractServiceTest.printResult()` или закомментированные `JdbcTemplate`. Назначение этого проекта совсем другое.
-- 20: ORM работает с объектами. [В простейших случаях поля допустимы](https://stackoverflow.com/questions/6311776/hibernate-foreign-keys-instead-of-entities), но при этом JPA их уже никак не обрабатывает и не используйте их вместе с объектами.
+- 20: ORM работает с объектами. [В простейших случаях fk_id как поля допустимы](https://stackoverflow.com/questions/6311776/hibernate-foreign-keys-instead-of-entities), но при этом JPA их уже никак не обрабатывает и не используйте их вместе с объектами.
 - 21: Проверьте, станет ли код проще с `@AuthenticationPrincipal` (урок 11, Доступ к AuthorizedUser). С ним можно убрать из `AuthorizedUser` все статические методы.
 
 
